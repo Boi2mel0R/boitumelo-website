@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # v0 sandbox internal files
 __v0_runtime_loader.js
 __v0_devtools.tsx
@@ -14,3 +15,11 @@ next.user-config.*
 node_modules
 .next/
 .DS_Store
+=======
+echo "node_modules/
+.next/
+.env.local
+.DS_Store
+pnpm-lock.yaml" > .gitignore
+node_modules
+>>>>>>> 7547c8dc35e7397ffcecb9acee4741169b47521d

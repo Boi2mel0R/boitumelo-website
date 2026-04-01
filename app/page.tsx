@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {
   Linkedin,
   Mail,
@@ -564,5 +565,28 @@ export default function Home() {
         </div>
       </footer>
     </div>
+=======
+import { HeroSection } from "@/components/hero-section"
+import { AboutSection } from "@/components/about-section"
+import { ExperienceSection } from "@/components/experience-section"
+import { SkillsSection } from "@/components/skills-section"
+import { EducationSection } from "@/components/education-section"
+import { ProjectsSection } from "@/components/projects-section"
+import { ContactSection } from "@/components/contact-section"
+import { Navigation } from "@/components/navigation"
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-background">
+      <Navigation />
+      <HeroSection />
+      <AboutSection />
+      <ExperienceSection />
+      <SkillsSection />
+      <EducationSection />
+      <ProjectsSection />
+      <ContactSection />
+    </main>
+>>>>>>> 7547c8dc35e7397ffcecb9acee4741169b47521d
   )
 }
