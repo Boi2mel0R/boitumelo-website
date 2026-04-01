@@ -72,7 +72,7 @@
   --sidebar-ring: oklch(0.65 0.18 350);
 }
 
-@theme inline {
+:root {
   --font-sans: 'Poppins', 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --color-background: var(--background);
