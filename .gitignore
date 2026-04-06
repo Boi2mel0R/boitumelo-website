@@ -14,3 +14,9 @@ next.user-config.*
 node_modules
 .next/
 .DS_Store
+echo "node_modules/
+.next/
+.env.local
+.DS_Store
+pnpm-lock.yaml" > .gitignore
+node_modules

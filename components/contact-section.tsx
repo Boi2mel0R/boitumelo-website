@@ -89,29 +89,28 @@ export function ContactSection() {
                 </svg>
                 <span>TikTok</span>
               </a>
-              <a
-                href="https://www.facebook.com/share/1AaCosVTvw/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Facebook className="h-5 w-5" />
-                <span>Facebook</span>
-              </a>
-            </div>
-          </div>
+          <a
+            href="https://www.facebook.com/share/1AaCosVTvw/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+          >
+            <Facebook className="h-5 w-5" />
+            <span>Facebook</span>
+          </a>
         </div>
-
-        {/* Footer */}
-        <footer className="mt-16 pt-8 border-t border-border text-center">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Boitumelo Rammego. All rights reserved.
-          </p>
-          <p className="text-xs text-muted-foreground mt-2">
-            References available upon request
-          </p>
-        </footer>
       </div>
-    </section>
+      {/* Footer */}
+      <footer className="mt-16 pt-8 border-t border-border text-center">
+        <p className="text-sm text-muted-foreground">
+          © {new Date().getFullYear()} Boitumelo Rammego. All rights reserved.
+        </p>
+        <p className="text-xs text-muted-foreground mt-2">
+          References available upon request
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
   )
 }

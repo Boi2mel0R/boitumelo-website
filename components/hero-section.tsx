@@ -1,5 +1,6 @@
 import { ArrowDown, Mail, MapPin, Instagram, Facebook } from "lucide-react"
 import Link from "next/link"
+import { Github, Linkedin } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -56,7 +57,29 @@ export function HeroSection() {
               <Facebook className="h-5 w-5" />
             </a>
           </div>
-          
+          <div className="flex gap-4 mt-6">
+
+<a
+href="https://github.com/Boi2mel0R"
+target="_blank"
+rel="noopener noreferrer"
+className="flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-gray-100"
+>
+<Github size={20} />
+GitHub
+</a>
+
+<a
+href="https://www.linkedin.com/in/boitumelo-rammego-0883591b3"
+target="_blank"
+rel="noopener noreferrer"
+className="flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-gray-100"
+>
+<Linkedin size={20} />
+LinkedIn
+</a>
+
+</div>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
             <Link
               href="#contact"
