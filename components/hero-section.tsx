@@ -1,6 +1,7 @@
 import { ArrowDown, Mail, MapPin, Instagram, Facebook } from "lucide-react"
 import Link from "next/link"
 import { Github, Linkedin } from "lucide-react"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
@@ -11,6 +12,16 @@ export function HeroSection() {
             <MapPin className="h-4 w-4" />
             <span>Johannesburg, South Africa</span>
           </div>
+
+     <div className="flex justify-center">
+  <Image
+    src="/profile.jpg"
+    alt="Boitumelo Rammego"
+    width={160}
+    height={160}
+    className="rounded-full border-4 border-primary shadow-lg"
+  />
+</div>     
           
           <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight text-balance">
             Hi, I&apos;m <span className="text-primary">Boitumelo</span>

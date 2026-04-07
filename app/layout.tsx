@@ -1,9 +1,11 @@
 import type { Metadata } from 'next'
 import { Poppins, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+
 import { Navigation } from '@/components/navigation'
 import { ThemeProvider } from '@/components/theme-provider'
 import './globals.css'
+import next from 'next'
 
 const poppins = Poppins({
   subsets: ['latin'],
