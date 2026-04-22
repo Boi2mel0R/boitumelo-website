@@ -15,7 +15,7 @@ export function HeroSection() {
 
      <div className="flex justify-center">
   <Image
-    src="/profile.jpg"
+    src="/images/profile.jpeg"
     alt="Boitumelo Rammego"
     width={160}
     height={160}
@@ -68,29 +68,26 @@ export function HeroSection() {
               <Facebook className="h-5 w-5" />
             </a>
           </div>
-          <div className="flex gap-4 mt-6">
-
-<a
-href="https://github.com/Boi2mel0R"
-target="_blank"
-rel="noopener noreferrer"
-className="flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-gray-100"
->
-<Github size={20} />
-GitHub
-</a>
-
-<a
-href="https://www.linkedin.com/in/boitumelo-rammego-0883591b3"
-target="_blank"
-rel="noopener noreferrer"
-className="flex items-center gap-2 px-4 py-2 border rounded-lg hover:bg-gray-100"
->
-<Linkedin size={20} />
-LinkedIn
-</a>
-
-</div>
+          <div className="flex items-center justify-center gap-4 pt-2">
+            <a
+              href="https://github.com/Boi2mel0R"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+              aria-label="GitHub"
+            >
+              <Github className="h-5 w-5" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/boitumelo-rammego-0883591b3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary text-secondary-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
+              aria-label="LinkedIn"
+            >
+              <Linkedin className="h-5 w-5" />
+            </a>
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
             <Link
               href="#contact"

@@ -1,8 +1,21 @@
 
+// Calculate years of experience - updates every March 1st
+function calculateYearsOfExperience() {
+  const startDate = new Date(2022, 2, 1); // March 1, 2022
+  const today = new Date();
+  let years = today.getFullYear() - startDate.getFullYear();
+  
+  // If we haven't reached March 1st yet this year, subtract 1
+  if (today.getMonth() < 2 || (today.getMonth() === 2 && today.getDate() < 1)) {
+    years--;
+  }
+  
+  return years;
+}
 
 const experiences = [
   {
-    period: "2022 — Present",
+    period: `2022 — Present (${calculateYearsOfExperience()} years)`,
     title: "NOC Technician (Data Centers)",
     company: "RT Systems",
     description: "Monitoring network and server infrastructure across multiple data centers, ensuring 99.9% uptime through proactive incident response and collaboration with engineering teams.",

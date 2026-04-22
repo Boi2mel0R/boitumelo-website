@@ -1,4 +1,4 @@
-import { Monitor, Users, Award, ArrowUpRight } from "lucide-react"
+import { Monitor, Users, Award, ArrowUpRight, Github, Linkedin, Facebook } from "lucide-react"
 
 const projects = [
   {
@@ -139,15 +139,38 @@ export function ProjectsSection() {
                 Follow my journey and connect with me on social media to see more of my work, 
                 leadership initiatives, and professional updates.
               </p>
-              <a
-                href="https://www.facebook.com/share/1AaCosVTvw/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-primary hover:underline"
-              >
-                <span>View Facebook Profile</span>
-                <ArrowUpRight className="h-4 w-4" />
-              </a>
+              <div className="flex items-center gap-3 flex-wrap">
+                <a
+                  href="https://github.com/Boi2mel0R"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                  aria-label="GitHub"
+                >
+                  <Github className="h-4 w-4" />
+                  <span>GitHub</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/boitumelo-rammego-0883591b3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="h-4 w-4" />
+                  <span>LinkedIn</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1AaCosVTvw/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary hover:underline"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="h-4 w-4" />
+                  <span>Facebook</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

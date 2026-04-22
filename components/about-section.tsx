@@ -4,7 +4,7 @@ const highlights = [
   {
     icon: Server,
     title: "Data Center Operations",
-    description: "3+ years managing critical infrastructure with 99.9% uptime",
+    description: "4+ years managing critical infrastructure with 99.9% uptime",
   },
   {
     icon: Cloud,
@@ -43,7 +43,7 @@ export function AboutSection() {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 I&apos;m a detail-oriented Bachelor of Science in Information Technology graduate 
-                with 3 years of practical experience as a Network Operations Center (NOC) Technician. 
+                with 4 years of practical experience as a Network Operations Center (NOC) Technician. 
                 My work involves monitoring, troubleshooting, and maintaining critical data center 
                 infrastructure to ensure high availability and performance.
               </p>
